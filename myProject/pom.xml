@@ -2,5 +2,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>pl.program.myproject</groupId>
   <artifactId>myProject</artifactId>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	  <dependency>
+	  	<groupId>org.springframework</groupId>
+	  	<artifactId>spring-core</artifactId>
+	  	<version>5.0.4.RELEASE</version>
+	  </dependency>
+  </dependencies>
+  <modules>
+  <module>koty-domain</module>
+  <module>koty-application</module>
+  </modules>
 </project>
